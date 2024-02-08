@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ControleDeProducao</string>
+    <string name="obra">Obra</string>
+    <string name="nome_peca">Nome da Peça</string>
+    <string name="tipo">Tipo</string>
+    <string name="viga">Viga</string>
+    <string name="pilar">Pilar</string>
+    <string name="escada">Escada</string>
+    <string name="limpar">Limpar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nenhuma_selecionada">Nenhuma Opção Selecionada</string>
+    <string name="nome_obra">Nome Obra</string>
+    <string name="nova_obra">Nova Obra</string>
+</resources>
