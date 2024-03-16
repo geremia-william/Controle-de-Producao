@@ -1,14 +1,52 @@
 <resources>
     <string name="app_name">ControleDeProducao</string>
-    <string name="obra">Obra</string>
-    <string name="nome_peca">Nome da Peça</string>
-    <string name="tipo">Tipo</string>
+    <string name="obra">Obra:</string>
+    <string name="nome_peca">Nome da Peça:</string>
+    <string name="tipo">Tipo:</string>
     <string name="viga">Viga</string>
     <string name="pilar">Pilar</string>
     <string name="escada">Escada</string>
-    <string name="limpar">Limpar</string>
+    <string name="limpar">Limpar Campos</string>
     <string name="cadastrar">Cadastrar</string>
     <string name="nenhuma_selecionada">Nenhuma Opção Selecionada</string>
     <string name="nome_obra">Nome Obra</string>
     <string name="nova_obra">Nova Obra</string>
+    <string name="cliente">Cliente:</string>
+    <string name="tipo_peca">Tipo de Peca:</string>
+
+    <!--População Inicial Spinner (Nome da obra/Cliente)-->
+    <string name="super_mercado">Super Mercado</string>
+    <string name="centro_eventos">Centro de Eventos</string>
+    <string name="salas_comerciais">Salas Comerciais</string>
+    <string name="william">William Varela Geremia</string>
+    <string name="ivonete">Ivonete Varela</string>
+    <string name="ronaldo">Ronaldo Geremia</string>
+
+    <!--População Inicial peças ListView-->
+    <string name="V01">V01</string>
+    <string name="V02">V02</string>
+    <string name="V03">V03</string>
+    <string name="P01">P01</string>
+    <string name="P02">P02</string>
+    <string name="P03">P03</string>
+    <string name="E01">E01</string>
+    <string name="E02">E02</string>
+    <string name="E03">E03</string>
+    <string name="E04">E04</string>
+    <string name="ver_lista">Ver Lista</string>
+    <string name="id">Id:</string>
+    <string name="todos_os_campos_foram_limpos">Todos os campos foram limpos!</string>
+    <string name="salvar">Salvar</string>
+    <string name="o_campo_nome_n_o_pode_ser_vazio">O campo Nome não pode ser vazio!</string>
+    <string name="o_campo_tipo_nao_pode_ser_vazio">O campo Tipo não pode ser Vazio</string>
+    <string name="o_campo_id_deve_ser_um_numero_inteiro">O campo ID deve ser um numero Inteiro</string>
+    <string name="dados_da_peca_clicada">Dados da Peça Clicada:</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sobre">Sobre</string>
+    <string name="controle_producao">Controle de produção</string>
+    <string name="autor">William Varela Geremia</string>
+    <string name="pos_graduacao">Pós Gradução em Tecnologia Java</string>
+    <string name="cancelar">Cancelar</string>
+
+
 </resources>

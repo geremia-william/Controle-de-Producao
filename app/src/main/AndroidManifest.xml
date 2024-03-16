@@ -13,10 +13,13 @@
         android:theme="@style/Theme.ControleDeProducao"
         tools:targetApi="31">
         <activity
-            android:name=".CadastroObraActivity"
+            android:name=".SobreActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".ListagemActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

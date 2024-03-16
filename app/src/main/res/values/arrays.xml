@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--População Inicial Spinner (Nome da obra/Cliente)-->
+    <string-array name="obras_iniciais_spinner">
+        <item>@string/super_mercado</item>
+        <item>@string/centro_eventos</item>
+        <item>@string/salas_comerciais</item>
+    </string-array>
+    <string-array name="clientes_iniciais_spinner">
+        <item>@string/william</item>
+        <item>@string/ivonete</item>
+        <item>@string/ronaldo</item>
+    </string-array>
+
+
+    <!--População Inicial peças ListView-->
+    <string-array name="nome_pecas_iniciais_list_view">
+        <item>@string/V01</item>
+        <item>@string/V02</item>
+        <item>@string/V03</item>
+        <item>@string/P01</item>
+        <item>@string/P02</item>
+        <item>@string/P03</item>
+        <item>@string/E01</item>
+        <item>@string/E02</item>
+        <item>@string/E03</item>
+        <item>@string/E04</item>
+    </string-array>
+    <integer-array name="id_iniciais_list_view">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="tipo_iniciais_list_view">
+        <item>@string/viga</item>
+        <item>@string/viga</item>
+        <item>@string/viga</item>
+        <item>@string/pilar</item>
+        <item>@string/pilar</item>
+        <item>@string/pilar</item>
+        <item>@string/escada</item>
+        <item>@string/escada</item>
+        <item>@string/escada</item>
+        <item>@string/escada</item>
+    </string-array>
+    <string-array name="obra_iniciais_list_view">
+        <item>@string/super_mercado</item>
+        <item>@string/centro_eventos</item>
+        <item>@string/salas_comerciais</item>
+        <item>@string/super_mercado</item>
+        <item>@string/centro_eventos</item>
+        <item>@string/salas_comerciais</item>
+        <item>@string/super_mercado</item>
+        <item>@string/centro_eventos</item>
+        <item>@string/salas_comerciais</item>
+        <item>@string/salas_comerciais</item>
+    </string-array>
+    <string-array name="cliente_iniciais_list_view">
+        <item>@string/william</item>
+        <item>@string/ivonete</item>
+        <item>@string/ronaldo</item>
+        <item>@string/william</item>
+        <item>@string/ivonete</item>
+        <item>@string/ronaldo</item>
+        <item>@string/william</item>
+        <item>@string/ivonete</item>
+        <item>@string/ronaldo</item>
+        <item>@string/ronaldo</item>
+    </string-array>
+
+</resources>

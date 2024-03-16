@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <TextView
+        android:id="@+id/textViewPecaList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/nome_peca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNomeListValor"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewPecaList"
+        app:layout_constraintTop_toTopOf="@+id/textViewPecaList" />
+
+    <TextView
+        android:id="@+id/textViewObraList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/obra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTipoList" />
+
+    <TextView
+        android:id="@+id/textViewTipoList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/tipo_peca"
+        app:layout_constraintStart_toStartOf="@+id/textViewPecaList"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPecaList" />
+
+    <TextView
+        android:id="@+id/textViewObraListValor"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewObraList"
+        app:layout_constraintTop_toTopOf="@+id/textViewObraList" />
+
+    <TextView
+        android:id="@+id/textViewClienteList"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/cliente"
+        app:layout_constraintStart_toEndOf="@+id/textViewObraListValor"
+        app:layout_constraintTop_toTopOf="@+id/textViewObraList" />
+
+    <TextView
+        android:id="@+id/textViewClienteListValor"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textViewClienteList"
+        app:layout_constraintTop_toTopOf="@+id/textViewClienteList" />
+
+    <TextView
+        android:id="@+id/textViewTipoListValor"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textViewTipoList"
+        app:layout_constraintTop_toTopOf="@+id/textViewTipoList" />
+
+    <TextView
+        android:id="@+id/textViewidList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/id"
+        app:layout_constraintStart_toEndOf="@+id/textViewNomeListValor"
+        app:layout_constraintTop_toTopOf="@+id/textViewNomeListValor" />
+
+    <TextView
+        android:id="@+id/textViewidListValor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textViewidList"
+        app:layout_constraintTop_toTopOf="@+id/textViewidList" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,15 +2,35 @@ package br.edu.controledeproducao;
 
 public class Pecas {
 
-    private String obra;
+    public Pecas(String nome, int id, String tipo, Obra obra) {
+        this.obra = obra;
+        this.id = id;
+        this.tipo = tipo;
+        this.nome = nome;
+    }
+
+    public Pecas() {
+    }
+
+
+    private int id;
+    private Obra obra;
     private String tipo;
     private String nome;
 
-    public String getObra() {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Obra getObra() {
         return obra;
     }
 
-    public void setObra(String obra) {
+    public void setObra(Obra obra) {
         this.obra = obra;
     }
 
